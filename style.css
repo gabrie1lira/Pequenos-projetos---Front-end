@@ -1,0 +1,148 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Open Sans', sans-serif;
+}
+
+ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+ul li a{
+    text-decoration: none;
+    color: white;
+    padding: 20px;
+}
+
+ul{
+    display: flex;
+}
+
+.flex-container{
+    display: flex;
+    max-width: 992px;
+    justify-content: space-around;
+    margin: auto;
+    align-items: center;
+}
+
+.flex-container div a{
+    width: 90px;
+    padding: 10px;
+    border-radius: 30px;
+    text-decoration: none;
+    color: white;
+    text-align: center;
+    margin-top: 10px;
+}
+
+.post1 a{
+    background-color: rgb(0, 44, 138);
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100px;
+    background-color: rgb(0, 44, 138);
+    color: white;
+}
+
+.column{
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+}
+
+.column1{
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+}
+
+.column1 p{
+    margin-top: 20px;
+}
+
+#serviços{
+    flex-direction: column;
+    background-color: rgb(0, 44, 138);
+    height: 500px;
+}
+
+#serviços a{
+    background-color: white;
+    color: rgb(0, 44, 138);
+    font-weight: bold;
+}
+
+#serviços h2{
+    color: white;
+    font-size: 30px;
+}
+
+.lista-serviços{
+    display: flex;
+}
+
+.lista-serviços .lista-itens{
+    margin: 0 50px;
+    text-align: center;
+}
+
+.lista-itens p{
+    margin: 15px;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.lista-itens a{
+    line-height: 50px;
+}
+
+#planos{
+    display: flex;
+    height: 500px;
+    align-items: flex-end;
+}
+
+.plano-itens{
+    border: 3px solid rgb(0, 17, 68);
+    padding: 40px 0;
+    margin: 0 15px;
+    margin-bottom: 80px;
+    text-align: center;
+}
+
+.plano-itens ul li{
+    list-style: circle;
+}
+
+.plano-itens ul{
+    display: flex;
+    flex-direction: column;
+    padding: 0 40px;
+    margin-bottom: 40px;
+    align-items: baseline;
+}
+
+.plano-itens hr{
+    margin: 40px;
+}
+
+.plano-itens a{
+    background-color: rgb(0, 17, 68);
+ }
+
+footer{
+    height: 100px;
+    background-color: rgb(0, 44, 138);
+    color: white;
+}
+
+footer a{
+    color: white;
+}
